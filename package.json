@@ -1,0 +1,56 @@
+{
+  "name": "authorify-websocket",
+  "version": "1.0.0",
+  "description": "A websocket plugin for Authorify authorization and authentication system for REST server",
+  "private": false,
+  "preferGlobal": false,
+  "browser": {
+    "./index.js": "./index-browser.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*-test.js --require should --reporter spec"
+  },
+  "dependencies": {
+    "underscore": "~1.6.0",
+    "async": "~0.9.0",
+    "path-to-regexp": "~0.2.0",
+    "semver": "~2.3.0",
+    "jsface": "~2.2.0",
+    "primus": "~2.3.0",
+    "primus-callbacks": "~2.1.3",
+    "ws": "~0.4.31",
+    "logged-errors": "^2.8.1-4",
+    "url": "0.10.1",
+    "util": "0.10.2"
+  },
+  "analyze": false,
+  "devDependencies": {
+    "mocha": "~1.20.1",
+    "should": "~4.0.4",
+    "node-uuid": "~1.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgesmundo/authorify-websocket.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mgesmundo/authorify-websocket/issues"
+  },
+  "keywords": [
+    "authorify",
+    "websocket",
+    "socket.io",
+    "primus",
+    "rest",
+    "restify",
+    "authorization",
+    "authentication",
+    "X509"
+  ],
+  "author": "Marcello Gesmundo",
+  "license": "AGPL3",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
